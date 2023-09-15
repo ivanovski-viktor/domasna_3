@@ -11,34 +11,26 @@
       <nav></nav>
     </header>
     <main>
-      <!--<input type="text" name="text" />
-      
-      
-      <input type="number" />
-      <input type="radio" />
-      <input type="range" />
-      <input type="reset" />
-      <input type="search" />
-      <select></select>-->
-
+      <!--Register Form-->
       <form action="register" method="post">
         <h1>Register Form</h1>
 
         <div id="regFormInfo">
-          <!--Name and number-->
+          <!--Personal info & login info-->
           <div class="formInfoDivs">
             <label for="fullname">Full Name</label>
             <label for="phoneno">Phone Number</label>
             <label for="email">E-mail</label>
             <label for="password">Password</label>
+            <label for="confirmPassword">Confirm Password</label>
             <label for="github">Github Repository</label>
           </div>
-          <!--Login info-->
           <div class="formInfoDivs">
             <input type="text" />
             <input type="tel" />
             <input type="email" />
             <input type="password" />
+            <input type="confirmPassword" />
             <input type="url" />
           </div>
         </div>
@@ -66,7 +58,7 @@
           <label for="color" class="label-font">Favourite color</label>
           <input id="color-field" type="color" />
         </div>
-
+        <!--Register btn-->
         <button>Register</button>
         <a href="./login.html">Already have an account? Login</a>
       </form>
